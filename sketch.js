@@ -38,7 +38,7 @@ function setup() {
 
 function draw() {
 
-  background("white");
+  background("black");
   
   if (ground.x>0);{
     ground.x = ground.width/2
@@ -56,9 +56,9 @@ function draw() {
   
   drawSprite();
   
-  stroke("white")
+  stroke("red")
   textSize(20)
-  fill("white")
+  fill("red")
   
   text("survivalscore:"+ Survivalscore,500,500)
   
